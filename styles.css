@@ -1,0 +1,91 @@
+body{
+    background-color: #825CFF;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container h1{
+    margin: 0px;
+    font-size: 2em;
+    color: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #666;
+    text-align: left;
+}
+
+input[type="text"],
+select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus{
+    border-color: #6A82FB;
+    box-shadow: 0 0 5px rgba(106, 130, 251, 0.5);
+}
+
+.container button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #FC5C7D;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.container button:hover{
+    background: #6A82FB;
+}
+
+
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+
+.apelido {
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+  }
