@@ -1,5 +1,5 @@
 body{
-    background-color: #825CFF;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -75,11 +75,21 @@ select:focus{
 
 
 
-.container2 {
+.badgeFront {
     position: relative;
     text-align: center;
     color: white;
+    display: none;
   }
+
+.badgeBack {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: none;
+  }
+
+
   
 
 
@@ -114,7 +124,7 @@ select:focus{
     left: 370px;
 }
 
-.utt {
+.bias {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.85em;
     font-weight: 600;
@@ -142,4 +152,39 @@ select:focus{
     position:absolute;
     bottom: 58px;
     left: 382px;
+}
+
+.dwnBadge,.createAnother{
+    display: none;
+    margin-top: 20px;
+    padding: 12px;
+    background: #001f3f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+@media (max-width: 600px){
+    .container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    input[type="text"],
+    select {
+        font-size: 0.9em;
+        padding: 8px;
+    }
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale-1.0">
-        <title>Gerador de Carteirinha</title>
+        <title>Gerador de Card Id</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="formContainer" class="container" style="display: none;">
-            <h1>Gerador de Carteirinha</h1>
+        <div id="formContainer" class="container">
+            <h1>Gerador de Card Id</h1>
             <form id="badgeForm">
 
                 <label for="nickname">Apelido:</label>
@@ -37,23 +37,26 @@
             </form>
         </div>   
 
-        <div class="container2">
+        <div id="badgeFront" class="badgeFront">
             <img src="assets/card_front.png" style="width:505px;height:319px;">
-            <div class="apelido">Apelido</div>
-            <div class="idade">Idade</div>
-            <div class="cidade">Cidade</div>
-            <div class="utt">Utt</div>
-            <div class="era">Era</div>
-            <div class="unit">Unit</div>
+            <div class="apelido" id="badgeNickname"></div>
+            <div class="idade" id="badgeAge"></div>
+            <div class="cidade" id="badgeCity"></div>
+            <div class="bias" id="badgeBias"></div>
+            <div class="era" id="badgeEra"></div>
+            <div class="unit" id="badgeUnit"></div>
         </div>
 
-        <div class="container3">
+        <div id="badgeBack" class="badgeBack">
             <img src="assets/card_back.png" style="width:505px;height:319px;">
         </div>
 
+        <button id="dwnBadge" class="dwnBadge"> Salvar Card Id</button>
+        <button id="createAnother" class="createAnother"> Criar Outro Card Id</button>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.js" integrity="sha512-zPMZ/3MBK+R1rv6KcBFcf7rGwLnKS+xtB2OnWkAxgC6anqxlDhl/wMWtDbiYI4rgi/NrCJdXrmNGB8pIq+slJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="script.js"></script>
     </body>
