@@ -85,7 +85,62 @@ select:focus{
 
 
 .apelido {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
     position:absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 193px;
+    left: 230px;
   }
+
+.idade {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    font-style: normal;
+    position:absolute;
+    bottom: 148px;
+    left: 215px;
+}
+
+.cidade {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    position:absolute;
+    bottom: 148px;
+    left: 370px;
+}
+
+.utt {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    position:absolute;
+    bottom: 103px;
+    left: 249px;
+}
+
+.era {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    position:absolute;
+    bottom: 58px;
+    left: 226px;
+}
+
+.unit {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    position:absolute;
+    bottom: 58px;
+    left: 382px;
+}
