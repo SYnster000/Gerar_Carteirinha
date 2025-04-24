@@ -48,7 +48,7 @@ downloadBadge.addEventListener('click', function(e){
     
     e.preventDefault();
     
-    const badgeElement = document.getElementById('badgeFront');
+    const badgeElement = document.getElementById('badgeFull');
     htmlToImage.toPng(badgeElement)
     .then(function (dataUrl) {
       const link = document.createElement('a');
