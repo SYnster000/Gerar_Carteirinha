@@ -18,14 +18,14 @@ badgeForm.addEventListener('submit', function(event){
     const unitfav = document.getElementById('unitfav').value;
     const foto = document.getElementById('pict');
 
-    const id = 'ID ' + Math.floor(Math.random() * 100).toString().padStart(4, '0');
+    const id = 'ID ' + Math.floor(Math.random()*1000000000).toString();
 
-    $('#badgeNickname').text(nickname);
-    $('#badgeCity').text(city);
-    $('#badgeAge').text(age);
-    $('#badgeBias').text(bias);
-    $('#badgeEra').text(erafav);
-    $('#badgeUnit').text(unitfav);
+    $('#badgeNickname').text("Apelido: "+nickname);
+    $('#badgeCity').text("Cidade: "+city);
+    $('#badgeAge').text("Idade: "+age);
+    $('#badgeBias').text("Utt ou Bias: "+bias);
+    $('#badgeEra').text("Era Fav: "+erafav);
+    $('#badgeUnit').text("Unit Fav: "+unitfav);
     $('#badgeID').text(id);
     
     const file = foto.files[0];

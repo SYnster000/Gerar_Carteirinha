@@ -107,7 +107,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 192px;
-    left: 242px;
+    left: 170px;
   }
 
 .idade {
@@ -118,7 +118,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 145px;
-    left: 225px;
+    left: 170px;
 }
 
 .cidade {
@@ -127,8 +127,8 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 143px;
-    left: 379px;
+    bottom: 145px;
+    left: 310px;
 }
 
 .bias {
@@ -138,7 +138,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 97px;
-    left: 275px;
+    left: 170px;
 }
 
 .era {
@@ -148,7 +148,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 50px;
-    left: 242px;
+    left: 170px;
 }
 
 .unit {
@@ -158,7 +158,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 50px;
-    left: 399px;
+    left: 310px;
 }
 
 
@@ -169,7 +169,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 50px;
-    left: 44%;
+    left: 41%;
 }
 
 
