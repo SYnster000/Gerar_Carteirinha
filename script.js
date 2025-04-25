@@ -26,6 +26,7 @@ badgeForm.addEventListener('submit', function(event){
     $('#badgeBias').text(bias);
     $('#badgeEra').text(erafav);
     $('#badgeUnit').text(unitfav);
+    $('#badgeID').text(id);
     
     const file = foto.files[0];
     if (file) {
