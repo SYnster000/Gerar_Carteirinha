@@ -90,7 +90,14 @@ select:focus{
   }
 
 
-  
+.foto{
+    width: 132px;
+    height: 179px;
+    background-color: #d4d4d4;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
 
 
 .apelido {
@@ -99,8 +106,8 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 193px;
-    left: 230px;
+    bottom: 192px;
+    left: 242px;
   }
 
 .idade {
@@ -110,8 +117,8 @@ select:focus{
     font-style: normal;
     font-style: normal;
     position:absolute;
-    bottom: 148px;
-    left: 215px;
+    bottom: 145px;
+    left: 225px;
 }
 
 .cidade {
@@ -120,8 +127,8 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 148px;
-    left: 370px;
+    bottom: 143px;
+    left: 379px;
 }
 
 .bias {
@@ -130,8 +137,8 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 103px;
-    left: 249px;
+    bottom: 97px;
+    left: 275px;
 }
 
 .era {
@@ -140,8 +147,8 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 58px;
-    left: 226px;
+    bottom: 50px;
+    left: 242px;
 }
 
 .unit {
@@ -150,9 +157,21 @@ select:focus{
     font-weight: 600;
     font-style: normal;
     position:absolute;
-    bottom: 58px;
-    left: 382px;
+    bottom: 50px;
+    left: 399px;
 }
+
+
+.ID {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.85em;
+    font-weight: 600;
+    font-style: normal;
+    position:absolute;
+    bottom: 50px;
+    left: 44%;
+}
+
 
 .dwnBadge,.createAnother{
     display: none;

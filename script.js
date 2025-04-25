@@ -16,6 +16,7 @@ badgeForm.addEventListener('submit', function(event){
     const bias = document.getElementById('bias').value;
     const erafav = document.getElementById('erafav').value;
     const unitfav = document.getElementById('unitfav').value;
+    const foto = document.getElementById('pict');
 
     const id = 'ID ' + Math.floor(Math.random() * 100).toString().padStart(4, '0');
 
@@ -25,6 +26,18 @@ badgeForm.addEventListener('submit', function(event){
     $('#badgeBias').text(bias);
     $('#badgeEra').text(erafav);
     $('#badgeUnit').text(unitfav);
+    
+    const file = foto.files[0];
+    if (file) {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        document.getElementById('badgePict').src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+    }
+
+    
+    
 
     $('#badgeFront').css('display', 'block');
     $('#badgeBack').css('display', 'block');
