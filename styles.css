@@ -128,7 +128,7 @@ select:focus{
     font-style: normal;
     position:absolute;
     bottom: 145px;
-    left: 310px;
+    left: 300px;
 }
 
 .bias {
@@ -142,12 +142,15 @@ select:focus{
 }
 
 .era {
+    height: 40px;
+    width: 155px;
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.85em;
     font-weight: 600;
+    text-align: start;
     font-style: normal;
     position:absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 170px;
 }
 
